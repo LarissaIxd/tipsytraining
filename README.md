@@ -2,4 +2,4 @@
 
 Tuesday 7th Januaray
 
-[mywebsite](https://larissaixd.github.io/tipsytraining.html//)
+[promotional site](https://larissaixd.github.io/tipsytraining/)
