@@ -1,0 +1,113 @@
+/* ------ CSS RESET ------ */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/* ---------- MAIN STYLING ---------- */
+
+body {
+    width: 75%;
+    max-width: 670px;
+    margin: auto;
+    background: white;
+    color: #555151;
+}
+
+H1,H2,H3 {
+    font-weight: normal;
+    color: #1C2135;
+    text-align: center;
+}
+
+p, li, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.4
+}
+
+h1 {
+    font-size: 3.998em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2.827em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.999em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* ---------- STYLING LINKS ----------*/
+
+a {
+    color: #1C2135;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    border-bottom: 1px dotted;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    position:fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    padding: 1em 0;
+    font-size: 1em
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px
+}
+
+nav a:link {
+    color: #1C2135;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: white;
+}
+
+/* ---------- IMAGES -------- */
+
+img {
+    display: block;
+    margin:  3em auto;
+    padding: 0;
+    max-width: 100%
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0
+}
+
+
